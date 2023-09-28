@@ -5,7 +5,7 @@ sudo dnf upgrade --refresh -y
 # Nvidia drivers
 sudo dnf install gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs xorg-x11-drv-nvidia-power nvidia-settings -y
 sudo dnf install xorg-x11-drv-nvidia-libs.i686 -y
-echo  "Waiting for 10 second..."
+echo  "Waiting for 10 second...."
 sleep 10
 sudo akmods --force
 sudo dracut --force
