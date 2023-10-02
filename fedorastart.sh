@@ -28,8 +28,8 @@ sudo dnf install gcc kernel-devel kernel-headers akmod-VirtualBox VirtualBox -y
 sudo usermod -a -G vboxusers $(whoami)
 sudo usermod -a -G vboxsf $(whoami)
 
-# Remove RPMFusion
-sudo dnf remove rpmfusion-free-release rpmfusion-nonfree-release -y
+# Install Steam
+sudo dnf install steam
 
 echo "Script completed successfully! Reboot in 5 seconds..."
 sleep 5
